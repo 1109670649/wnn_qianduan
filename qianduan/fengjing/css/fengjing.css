@@ -1,0 +1,651 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: top;
+}
+#wrap0 {
+  width: 100%;
+  height: 60px;
+  background-color: #fbfbfb;
+}
+#wrap0 #NIE-table {
+  opacity: 0.9;
+}
+#wrap0 #NIE-topBar {
+  width: 1090px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  z-index: 9999;
+  min-width: 1000px;
+  height: 60px;
+  line-height: 24px;
+  font-family: "Microsoft YaHei", simSun, "Lucida Grande", "Lucida Sans Unicode", Arial;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main .NIE-topBar-news {
+  position: absolute;
+  top: 5px;
+  width: 133px;
+  height: 60px;
+  display: inline-block;
+  background: url("../imgs/logo_b5525b7.png") no-repeat;
+  float: left;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-news {
+  width: 420px;
+  height: 54px;
+  float: left;
+  position: absolute;
+  left: 143px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-news span #NIE-topBar-news-link {
+  position: absolute;
+  z-index: 111;
+  left: -142px;
+  top: 60px;
+  display: none;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-news:hover #zhenmoX {
+  display: none;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-news:hover #NIE-topBar-news-link {
+  display: block;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-mid {
+  position: absolute;
+  left: 630px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-mid a {
+  text-align: center;
+  line-height: 60px;
+  display: inline-block;
+  width: 75px;
+  font-size: 12px;
+  padding: 0 12px;
+  height: 60px;
+  color: black;
+  text-decoration: none;
+  transition: background ease-in-out 0.5s;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-mid a:hover {
+  color: #c22c37;
+  border-bottom: solid 3px #c22c37;
+  background: -ms-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /* IE 10 */
+  background: -moz-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /*���*/
+  /*�ȸ�*/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9));
+  /* Safari 4-5, Chrome 1-9*/
+  background: -webkit-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /*Safari5.1 Chrome 10+*/
+  background: -o-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /*Opera 11.10+*/
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu {
+  width: 130px;
+  height: 60px;
+  position: absolute;
+  right: 171px;
+  text-align: center;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu span {
+  width: 140px;
+  transition: background ease-in-out 0.5s;
+  color: #bc2e2e;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 12px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.001px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu span em {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  display: inline-block;
+  background-color: #fff;
+  overflow: hidden;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu span em i {
+  position: absolute;
+  top: -21px;
+  left: 2px;
+  display: inline-block;
+  font-size: 11px ;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table {
+  display: none;
+  background: #fdfefe;
+  position: absolute;
+  right: -81px;
+  width: 1000px;
+  height: 476px;
+  overflow: hidden;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-nav {
+  float: left;
+  width: 100%;
+  height: 40px;
+  background-color: #f7f6f6;
+  position: relative;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-nav li {
+  text-align: left;
+  height: 40px;
+  box-sizing: border-box;
+  float: left;
+  overflow: hidden;
+  border-right: solid 1px #eeeeed;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-nav li b {
+  margin-left: 20px;
+  font-size: 14px;
+  color: #bf3737;
+  line-height: 40px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-nav li:last-child {
+  border: none;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list {
+  margin-top: -10px;
+  margin-left: -2px;
+  text-align: left;
+  float: left;
+  width: 100%;
+  height: 435px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li {
+  height: 435px;
+  float: left;
+  overflow: hidden;
+  margin-left: 20px;
+  background-color: #fdfefe;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li p {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li a {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  width: 100%;
+  height: 24px;
+  font-size: 11px;
+  color: #5d5d5d;
+  margin-bottom: 2px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li a em {
+  width: 18px;
+  height: 9px;
+  display: inline-block;
+  float: right;
+  margin-top: 8px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li a .NIE-topBar-1st {
+  background: url("../imgs/sprite-w_7fc7459.png") no-repeat;
+  background-position: -97px -276px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li a .NIE-topBar-hot {
+  background: url("../imgs/sprite-w_7fc7459.png") no-repeat;
+  background-position: -97px -152px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li a .NIE-topBar-new {
+  background: url("../imgs/sprite-w_7fc7459.png") no-repeat;
+  background-position: -97px -214px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li a:hover {
+  color: #bf3938;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list .news {
+  width: 434px;
+  overflow: hidden;
+  height: 435px;
+  margin-left: -15px;
+  padding-left: 20px;
+  text-align: left;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list .news #NIE-list-news {
+  margin-left: 0;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list .news #NIE-list-news div {
+  height: 435px;
+  width: 123px;
+  overflow: hidden;
+  float: left;
+  margin-right: 5px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list .news #NIE-list-news div a {
+  margin-bottom: 2px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list .hot,
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list .news {
+  position: absolute;
+  z-index: 10;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list .hot {
+  left: 280px;
+  border-right: solid 1px #eeeeed;
+  padding-left: 20px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list .hot em {
+  margin-right: 5px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list .news {
+  left: 447px;
+  border-right: solid 1px #eeeeed;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list .short .NIE-topBar-btn {
+  background: url("../imgs/sprite-w_7fc7459.png") no-repeat;
+  background-position: 0px -340px;
+  width: 76px;
+  height: 16px;
+  color: #bf3938;
+  line-height: 16px;
+  text-align: right;
+  display: inline-block;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list #js_NIE_topbar_xiu {
+  border-right: solid 1px #eeeeed;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list #js_NIE_topbar_xiu a em {
+  margin-right: 40px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li {
+  position: relative;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li .NIE-topBar-more {
+  padding-top: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: inline-block;
+  width: 27px;
+  font-weight: bold;
+  text-align: center;
+  height: 100px;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+  background-color: #bf3837;
+  position: absolute;
+  top: 124px;
+  border-radius: 2px;
+  border: solid 1px  #bf3837;
+  right: 0;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list li .NIE-topBar-more:hover {
+  color: white;
+  opacity: 0.7;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu #NIE-table .NIE-list #youXiR {
+  position: absolute;
+  right: 0;
+  z-index: 500;
+  padding-right: 10px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu:hover #NIE-table {
+  display: block;
+}
+#wrap0 #NIE-topBar #NIE-topBar-main #NIE-topBar-menu:hover span {
+  background: -ms-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /* IE 10 */
+  background: -moz-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /*���*/
+  /*�ȸ�*/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9));
+  /* Safari 4-5, Chrome 1-9*/
+  background: -webkit-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /*Safari5.1 Chrome 10+*/
+  background: -o-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /*Opera 11.10+*/
+}
+#wrap0 #NIE-topBar #NIE-topBar-right {
+  position: absolute;
+  right: 48px;
+  top: 0;
+  display: block;
+  width: 115px;
+  height: 60px;
+  line-height: 60px;
+  overflow: hidden;
+  z-index: 9;
+}
+#wrap0 #NIE-topBar #NIE-topBar-right ul {
+  position: absolute;
+}
+#wrap0 #NIE-topBar #NIE-topBar-right ul li {
+  text-align: center;
+  display: inline-block;
+  width: 115px;
+  height: 60px;
+  line-height: 60px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-right ul li a {
+  color: #898989;
+  font-size: 12px;
+}
+#wrap0 #NIE-topBar #NIE-topBar-right ul li:hover {
+  border-bottom: solid 3px #c22c37;
+  background: -ms-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /* IE 10 */
+  background: -moz-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /*���*/
+  /*�ȸ�*/
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9));
+  /* Safari 4-5, Chrome 1-9*/
+  background: -webkit-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /*Safari5.1 Chrome 10+*/
+  background: -o-linear-gradient(top, #f1f1f1, #f9f9f9);
+  /*Opera 11.1*/
+}
+#wrap0 #NIE-topBar #NIE-topBar-right ul li:hover a {
+  color: #c22c37;
+  text-decoration: none;
+}
+.wrap.scenery {
+  height: 1080px;
+}
+.wrap {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.wrap .mod18Box {
+  margin: 0 auto;
+  width: 100%;
+  background: #FFF;
+}
+.wrap .mod18Box .mod18 {
+  width: 100%;
+  height: 1080px;
+  margin: 0 auto;
+  position: relative;
+  background: #f7f7f7;
+  z-index: 1000;
+}
+.wrap .mod18Box .mod18 .picBox {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+  left: 50%;
+  margin-left: -960px;
+}
+.wrap .mod18Box .mod18 .picBox ul {
+  height: 993px;
+  position: absolute;
+}
+.wrap .mod18Box .mod18 .picBox ul li {
+  width: 1920px;
+  height: 993px;
+  position: absolute;
+  display: block;
+}
+.wrap .mod18Box .mod18 .picbg {
+  position: absolute;
+  width: 1920px;
+  left: 50%;
+  margin-left: -960px;
+  height: 100%;
+  top: 0;
+  z-index: 5;
+  background: url(../imgs/scenery_bg_eb9bd6b.png) no-repeat;
+}
+.wrap .mod18Box .mod18 .picbg .scenery {
+  background-position: -774px -183px;
+  background-repeat: no-repeat;
+  background-size: 1102px 876px;
+  background-image: url("../imgs/index_1_z_afd4269.png");
+}
+.wrap .mod18Box .mod18 .picbg span {
+  width: 325px;
+  height: 180px;
+  display: block;
+  margin: 140px auto 0;
+  -webkit-animation: bounceInDown ease-out 0.5s both;
+  -moz-animation: bounceInDown ease-out 0.5s both;
+  -ms-animation: bounceInDown ease-out 0.5s both;
+  animation: bounceInDown ease-out 0.5s both;
+}
+.wrap .mod18Box .mod18 .listBox {
+  width: 100%;
+  height: 230px;
+  margin: 0 auto;
+  position: absolute;
+  overflow: hidden;
+  top: 60%;
+  z-index: 10;
+}
+.wrap .mod18Box .mod18 .listBox ul {
+  height: 100%;
+  position: relative;
+  -webkit-animation: fadeInLeft ease-in-out 0.6s 0.3s both;
+  -moz-animation: fadeInLeft ease-in-out 0.6s 0.3s both;
+  -ms-animation: fadeInLeft ease-in-out 0.6s 0.3s both;
+  animation: fadeInLeft ease-in-out 0.6s 0.3s both;
+}
+.wrap .mod18Box .mod18 .listBox ul li {
+  width: 265px;
+  padding-top: 35px;
+  position: relative;
+  float: left;
+}
+.wrap .mod18Box .mod18 .listBox ul li span {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  padding-top: 14px;
+}
+.wrap .mod18Box .mod18 .listBox ul li img {
+  width: 100%;
+  vertical-align: top;
+  -webkit-transition: transform ease .3s;
+  -moz-transition: transform ease .3s;
+  -ms-transition: transform ease .3s;
+  transition: transform ease .3s;
+}
+.wrap .mod18Box .mod18 .listBox ul li p {
+  text-align: center;
+  color: #fff;
+  height: 26px;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  line-height: 26px;
+  opacity: 0;
+}
+.wrap .mod18Box .mod18 .listBox ul li .listBox-img {
+  width: 260px;
+  overflow: hidden;
+}
+.wrap .mod18Box .mod18 .listBox ul li:hover img {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+.wrap .mod18Box .mod18 .listBox ul .on {
+  padding-top: 25px;
+  cursor: pointer;
+  -webkit-transition: padding ease .3s;
+  -moz-transition: padding ease .3s;
+  -ms-transition: padding ease .3s;
+  transition: padding ease .3s;
+}
+.wrap .mod18Box .mod18 .listBox ul .on img {
+  width: 295px;
+}
+.wrap .show {
+  opacity: 1;
+}
+.wrap .pic-pop {
+  width: 100%;
+  left: 0;
+  margin-left: 0;
+  background: #000;
+  position: absolute;
+  top: -40px;
+  z-index: 15;
+  height: 100%;
+  transition: opacity ease .8s;
+}
+.wrap .pic-pop .slideShow {
+  position: absolute;
+  z-index: 27;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  margin-top: 0;
+  margin: 40px auto 0;
+}
+.wrap .pic-pop .slideShow .slideWrap {
+  width: 1920px;
+  left: 50%;
+  margin-left: -960px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.wrap .pic-pop .slideShow .slideWrap ul {
+  position: absolute;
+  top: 0;
+}
+.wrap .pic-pop .slideShow .slideWrap ul li {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  float: left;
+  list-style: none;
+}
+.wrap .pic-pop .slideShow .slideWrap ul li .pop-txt {
+  z-index: 25;
+  position: absolute;
+  width: 280px;
+  height: 380px;
+  left: 50%;
+  top: 50%;
+  margin: -190px 0 0 -140px;
+  color: #fff;
+  font-size: 62px;
+  line-height: 60px;
+}
+.wrap .pic-pop .slideShow .slideWrap ul li .pop-txt .s1 {
+  margin-right: 127px;
+}
+.wrap .pic-pop .slideShow .slideWrap ul li .pop-txt span {
+  display: inline-block;
+  width: 60px;
+  height: 100%;
+  text-align: center;
+  vertical-align: top;
+  text-shadow: 3px 3px 3px #555;
+}
+.wrap .pic-pop .slideShow .slideWrap ul li .changeable {
+  position: absolute;
+  z-index: 20;
+  height: 100%;
+  width: 50%;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  background: url("../sycl_b.jpg") no-repeat;
+}
+.wrap .pic-pop .slideShow .slideWrap ul li .handle {
+  background: url("../index_1_z_afd4269.png") no-repeat;
+  background-position: -1006px -500px;
+  z-index: 27;
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 50%;
+  margin-left: -45px;
+  top: 50%;
+  margin-top: -45px;
+  cursor: url(../hand.cur), move;
+}
+#NIE-copyRight {
+  background: #0c0c0c;
+  color: #939393;
+  padding-top: 35px;
+  text-align: center;
+}
+#NIE-copyRight .nie-copyright-new-inner {
+  width: 840px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 15px 0 10px;
+  font-size: 12px;
+  line-height: 20px;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part3 {
+  width: 840px;
+  height: 20px;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 {
+  width: 840px;
+  height: 48px;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  z-index: 1;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav .nie-cn-nav-i1 a {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav .nie-cn-guardianship {
+  color: #fff;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-nav a {
+  color: #ea4438;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-logo {
+  display: inline-block;
+  vertical-align: middle;
+  height: 48px;
+  min-width: 300px;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-logo img {
+  padding-top: 5px;
+  border: 0;
+  vertical-align: middle;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-logo .a0 img {
+  width: 118px;
+  height: 36px;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-logo .a1 img {
+  width: 149px;
+  height: 36px;
+}
+#NIE-copyRight .nie-copyright-new-inner .nie-cn-part1 .nie-cn-logo a {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2px;
+  color: #ea4438;
+}
+#awwwards {
+  position: absolute;
+  cursor: pointer;
+  top: 60px;
+  width: 90px;
+  height: 135px;
+  text-indent: -666em;
+  overflow: hidden;
+  z-index: 9999;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  left: 0;
+  background: url("../imgs/awwwards_nominee_black_left_f0f3af8.png");
+}

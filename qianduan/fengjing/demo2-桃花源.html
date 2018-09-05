@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--meta:vp-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <!-- meta:compat-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <!--[if lt IE 9]>
+        <script src="bootstrap/js/html5shiv.min.js"></script>
+        <script src="bootstrap/js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/demo2.css">
+</head>
+<body>
+<div class="slideWrap ">
+    <ul>
+        <li id="Move">
+            <img data-src="game10_2.jpg" class="lazy-img" src="game10_2.jpg">
+            <div class="handle" style="left: 912.5px; top: 422px;"></div>
+            <div class="pop-txt" style="left: 912.5px;">
+                <span class="s1">天下3桃李花林</span>
+                <span class="s2">湖南桃林</span>
+            </div>
+            <div class="changeable" style="width: 912.5px;">
+                <img src="game10_1.jpg">
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
+<script src="bootstrap/js/jquery-1.11.3.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script>
+    //设置图片显示隐藏事件
+    //第一步：获取.changable的宽度，.handle .pop-txt的left值，
+    var changableWidth=$(".changeable").css("width");
+    var handleLeft=$(".handle").css("left");
+    var handleTop=$(".handle").css("top");
+    var popTextLeft=$(".pop-txt").css("left");
+//    console.log(changableWidth,handleLeft,popTextLeft);
+//设置三者在鼠标移动的时候保持数值相等,利用事件对象
+    var Handle=document.getElementsByClassName("handle")[0];
+    var MB=document.getElementById("Move");
+   Handle.onmousedown=function(){
+           MB.onmousemove=function(e) {
+               var eve = e || window.event;
+               //获取鼠标移动时候距离可视化窗口左侧和上面的距离
+               var bodyX = eve.clientX;
+               var bodyY = eve.clientY;
+//            console.log(bodyX,bodyY)
+               //元素距离上端和左侧距离，送给元素的left,top值
+               var Left = bodyX + "px";
+               var Top = bodyY + "px";
+//               Handle.style.left=Left;
+//               Handle.style.top=Top;
+               $(".handle").css("left", Left);
+               $(".handle").css("top", Top);
+               $(".changeable").css("width",Left);
+               $(".pop-txt").css("left",Left);
+           }
+
+   };
+    //设置鼠标松开事件取消鼠标移动事件
+      MB.onmouseup=function(){
+          MB.onmousemove=null;
+       }
+</script>

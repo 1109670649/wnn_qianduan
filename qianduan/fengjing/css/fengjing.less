@@ -1,0 +1,756 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: top;
+}
+//导航部分开始
+#wrap0 {
+  #NIE-table{
+    opacity: 0.9;
+  }
+  width: 100%;
+  height: 60px;
+  background-color: #fbfbfb;
+  #NIE-topBar {
+    width: 1090px;
+    //border: solid 1px slategray;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9999;
+    min-width: 1000px;
+    height: 60px;
+    line-height: 24px;
+    font-family: "Microsoft YaHei", simSun, "Lucida Grande", "Lucida Sans Unicode", Arial;
+    //导航主要部分开始
+    #NIE-topBar-main {
+      //导航网易logo开始
+      .NIE-topBar-news {
+        position: absolute;
+        top: 5px;
+        width: 133px;
+        height: 60px;
+        display: inline-block;
+        background:url("../imgs/logo_b5525b7.png") no-repeat;
+        float: left;
+      }
+      //  导航网易logo结束
+      //  导航镇魔曲开始
+      #NIE-topBar-news {
+        width: 420px;
+        height: 54px;
+        float: left;
+        position: absolute;
+        left: 143px;
+        span {
+          #NIE-topBar-news-link {
+            position: absolute;
+            z-index: 111;
+            left: -142px;
+            top: 60px;
+            display: none;
+          }
+        }
+      }
+      #NIE-topBar-news:hover{
+        #zhenmoX{
+          display: none;
+        }
+        #NIE-topBar-news-link{
+          display: block;
+        }
+      }
+    ;
+      //  导航镇魔曲结束
+      //    注册账号、购卡充值开始
+      #NIE-topBar-mid {
+        position: absolute;
+        left: 630px;
+        a {
+          text-align: center;
+          line-height: 60px;
+          display: inline-block;
+          width: 75px;
+          font-size: 12px;
+          padding: 0 12px;
+          height: 60px;
+          color: black;
+          text-decoration: none;
+          transition: background ease-in-out .5s;
+        }
+      ;
+        a:hover {
+          //background:linear-gradient(top,#f1f1f1,#f9f9f9);
+          color: #c22c37;
+          border-bottom: solid 3px #c22c37;
+          background: -ms-linear-gradient(top, #f1f1f1, #f9f9f9); /* IE 10 */
+          background: -moz-linear-gradient(top, #f1f1f1, #f9f9f9); /*火狐*/
+          background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9)); /*谷歌*/
+          background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9)); /* Safari 4-5, Chrome 1-9*/
+          background: -webkit-linear-gradient(top, #f1f1f1, #f9f9f9); /*Safari5.1 Chrome 10+*/
+          background: -o-linear-gradient(top, #f1f1f1, #f9f9f9); /*Opera 11.10+*/
+        }
+      }
+      //  注册账号、购卡充值结束
+      //      网易游戏目录开始
+      #NIE-topBar-menu {
+        width: 130px;
+        height: 60px;
+        position: absolute;
+        right: 171px;
+        text-align: center;
+        //目录首页
+        span{
+          width: 140px;
+          transition: background ease-in-out .5s;
+          //z-index: 20;
+          color: #bc2e2e;
+          height: 60px;
+          line-height: 60px;
+          padding-left: 12px;
+          display: inline-block;
+          text-align: center;
+          padding-top: 0.001px;
+          em{
+            position: relative;
+            width: 16px;
+            height: 16px;
+            top: 4px;
+            display: inline-block;
+            background-color: #fff;
+            overflow: hidden;
+            i{
+              position: absolute;
+              top: -21px;
+              left: 2px;
+              display: inline-block;
+              font-size: 11px ;
+            }
+          }
+        }
+        //span:hover{
+        //  background: -ms-linear-gradient(top, #f1f1f1, #f9f9f9); /* IE 10 */
+        //  background: -moz-linear-gradient(top, #f1f1f1, #f9f9f9); /*火狐*/
+        //  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9)); /*谷歌*/
+        //  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9)); /* Safari 4-5, Chrome 1-9*/
+        //  background: -webkit-linear-gradient(top, #f1f1f1, #f9f9f9); /*Safari5.1 Chrome 10+*/
+        //  background: -o-linear-gradient(top, #f1f1f1, #f9f9f9); /*Opera 11.10+*/
+        //}
+        //具体内容
+        #NIE-table{
+          display: none;
+          background: #fdfefe;
+          //border-top: 1px solid #ececec;
+          position: absolute;
+          right: -81px;
+          width: 1000px;
+          height: 476px;
+          overflow: hidden;
+          //background-color: lightpink;
+          //  内容目录导航部分
+          .NIE-nav{
+            float: left;
+            width: 100%;
+            height: 40px;
+            background-color: #f7f6f6;
+            position: relative;
+            li{
+              text-align: left;
+              height: 40px;
+              box-sizing: border-box;
+              //background-color: red;
+              float: left;
+              overflow: hidden;
+              border-right: solid 1px #eeeeed;
+              b{
+                margin-left: 20px;
+                font-size: 14px;
+                color: #bf3737;
+                line-height: 40px;
+              }
+            }
+            li:last-child{
+              border: none;
+            }
+          }
+          //  内容列表
+          .NIE-list{
+            margin-top: -10px;
+            margin-left: -2px;
+            text-align: left;
+            float: left;
+            //overflow: hidden;
+            width: 100%;
+            height: 435px;
+            //margin-left: 20px;
+            //padding-left: 0.001px;
+            li{
+              height: 435px;
+              float: left;
+              overflow: hidden;
+              margin-left: 20px;
+              background-color: #fdfefe;
+              p{
+                //background-color: red;
+                margin-bottom: 0px;
+                font-weight: bold;
+              }
+              a{
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                width: 100%;
+                height: 24px;
+                font-size: 11px;
+                color: #5d5d5d;
+                margin-bottom: 2px;
+                //background-color: plum;
+                em{
+                  width: 18px;
+                  height: 9px;
+                  display: inline-block;
+                  float: right;
+                  margin-top: 8px;
+                }
+                .NIE-topBar-1st{
+                  background: url("../imgs/sprite-w_7fc7459.png") no-repeat;
+                  background-position: -97px -276px;
+                  //width: 18px;
+                  //height: 9px;
+                  //display: inline-block;
+                  //float: right;
+                  //margin-top: 8px;
+                }
+                .NIE-topBar-hot{
+                  background: url("../imgs/sprite-w_7fc7459.png") no-repeat;
+                  background-position: -97px -152px;
+                }
+                .NIE-topBar-new{
+                  background: url("../imgs/sprite-w_7fc7459.png") no-repeat;
+                  background-position: -97px -214px;
+                }
+              };
+              a:hover{
+                color: #bf3938;
+              }
+            };
+            .news{
+              width: 434px;
+              overflow: hidden;
+              height: 435px;
+              margin-left: -15px;
+              padding-left: 20px;
+              //background-color: cyan;
+              text-align: left;
+              #NIE-list-news{
+                margin-left: 0;
+                div{
+                  height: 435px;
+                  float: left;
+                  width: 123px;
+                  overflow: hidden;
+                  //background-color: violet;
+                  float: left;
+                  margin-right: 5px;
+                  a{
+                    margin-bottom: 2px;
+                  }
+                }
+
+              }
+            };
+            .hot,.news{
+              position: absolute;
+              z-index: 10;
+            };
+            //#youXiR{
+            //  position: relative;
+            //  z-index: 14;
+            //}
+            .hot{
+              left:280px;
+              border-right: solid 1px #eeeeed;
+              padding-left: 20px;
+              em{
+                margin-right: 5px;
+              }
+            };
+            .news{
+              left: 447px;
+              border-right: solid 1px #eeeeed;
+            };
+            .short{
+              .NIE-topBar-btn{
+                background: url("../imgs/sprite-w_7fc7459.png") no-repeat;
+                background-position: 0px -340px;
+                width: 76px;
+                height: 16px;
+                color: #bf3938;
+                line-height: 16px;
+                text-align: right;
+                display: inline-block;
+              }
+            };
+            #js_NIE_topbar_xiu{
+              border-right: solid 1px #eeeeed;
+              //border: solid 1px red;
+              a{
+                em{
+                  margin-right: 40px;
+                }
+              }
+            }
+            //更多热门游戏
+            li{
+              position: relative;
+              .NIE-topBar-more{
+                padding-top: 8px;
+                padding-left: 4px;
+                padding-right: 4px;
+                display: inline-block;
+                width: 27px;
+                font-weight: bold;
+                text-align: center;
+                height: 100px;
+                font-size: 12px;
+                line-height: 14px;
+                color: white;
+                background-color: #bf3837;
+                position: absolute;
+                top: 124px;
+                border-radius: 2px;
+                border: solid 1px  #bf3837;
+                right: 0;
+              };
+              .NIE-topBar-more:hover{
+                color: white;
+                opacity: 0.7;
+              };
+
+            }
+            #youXiR{
+              position: absolute;
+              right: 0;
+              z-index:500;
+              padding-right: 10px;
+            }
+          }
+
+        }
+      };
+      #NIE-topBar-menu:hover{
+        #NIE-table{
+          display: block;
+        }
+        span{
+          background: -ms-linear-gradient(top, #f1f1f1, #f9f9f9); /* IE 10 */
+          background: -moz-linear-gradient(top, #f1f1f1, #f9f9f9); /*火狐*/
+          background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9)); /*谷歌*/
+          background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9)); /* Safari 4-5, Chrome 1-9*/
+          background: -webkit-linear-gradient(top, #f1f1f1, #f9f9f9); /*Safari5.1 Chrome 10+*/
+          background: -o-linear-gradient(top, #f1f1f1, #f9f9f9); /*Opera 11.10+*/
+        }
+      }
+      //  网易游戏目录结束
+    }
+    //导航主要部分结束
+    //导航右侧滚动开始
+    #NIE-topBar-right{
+      position: absolute;
+      right: 48px;
+      top: 0;
+      display: block;
+      width: 115px;
+      height: 60px;
+      line-height:60px;
+      overflow: hidden;
+      z-index: 9;
+      ul{
+        position: absolute;
+        li{
+          text-align: center;
+          display: inline-block;
+          width: 115px;
+          height: 60px;
+          line-height:60px;
+          a{
+            color: #898989;
+            font-size: 12px;
+          }
+          //border: solid 1px red;
+        }
+        li:hover{
+          a{
+            color: #c22c37;
+            text-decoration: none;
+          }
+          border-bottom: solid 3px #c22c37;
+          background: -ms-linear-gradient(top, #f1f1f1, #f9f9f9); /* IE 10 */
+          background: -moz-linear-gradient(top, #f1f1f1, #f9f9f9); /*火狐*/
+          background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9)); /*谷歌*/
+          background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f1f1), to(#f9f9f9)); /* Safari 4-5, Chrome 1-9*/
+          background: -webkit-linear-gradient(top, #f1f1f1, #f9f9f9); /*Safari5.1 Chrome 10+*/
+          background: -o-linear-gradient(top, #f1f1f1, #f9f9f9);/*Opera 11.1*/
+        }
+      }
+    }
+    //导航右侧滚动结束
+  }
+}
+///导航部分结束
+//主题部分开始
+.wrap.scenery {
+  height: 1080px;
+}
+.wrap {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+  .mod18Box {
+    margin: 0 auto;
+    width: 100%;
+    background: #FFF;
+    .mod18 {
+      width: 100%;
+      height: 1080px;
+      margin: 0 auto;
+      position: relative;
+      background: #f7f7f7;
+      z-index: 1000;
+      //主题第一层开始
+      .picBox {
+        width: 1920px;
+        height: 1080px;
+        position: relative;
+        overflow: hidden;
+        left: 50%;
+        margin-left: -960px;
+        ul {
+          height: 993px;
+          position: absolute;
+          li {
+            width: 1920px;
+            height: 993px;
+            position: absolute;
+            display: block;
+          }
+        }
+      }
+      //主题第一层结束
+      //主题第二层开始
+      .picbg {
+        position: absolute;
+        width: 1920px;
+        left: 50%;
+        margin-left: -960px;
+        height: 100%;
+        top: 0;
+        z-index: 5;
+        background: url(../imgs/scenery_bg_eb9bd6b.png) no-repeat;
+        .scenery {
+          background-position: -774px -183px;
+          background-repeat: no-repeat;
+          background-size: 1102px 876px;
+          background-image: url("../imgs/index_1_z_afd4269.png")
+        }
+        span {
+          width: 325px;
+          height: 180px;
+          display: block;
+          margin: 140px auto 0;
+          -webkit-animation: bounceInDown ease-out .5s both;
+          -moz-animation: bounceInDown ease-out .5s both;
+          -ms-animation: bounceInDown ease-out .5s both;
+          animation: bounceInDown ease-out .5s both;
+        }
+      }
+      //主题第二层结束
+      //主题第三层开始
+      .listBox {
+        width: 100%;
+        height: 230px;
+        margin: 0 auto;
+        position: absolute;
+        overflow: hidden;
+        top: 60%;
+        z-index: 10;
+        ul {
+          height: 100%;
+          position: relative;
+          -webkit-animation: fadeInLeft ease-in-out .6s .3s both;
+          -moz-animation: fadeInLeft ease-in-out .6s .3s both;
+          -ms-animation: fadeInLeft ease-in-out .6s .3s both;
+          animation: fadeInLeft ease-in-out .6s .3s both;
+          li {
+            width: 265px;
+            padding-top: 35px;
+            position: relative;
+            float: left;
+            span {
+              display: block;
+              font-size: 20px;
+              color: #fff;
+              text-align: center;
+              padding-top: 14px;
+            }
+            img {
+              width: 100%;
+              vertical-align: top;
+              -webkit-transition: transform ease .3s;
+              -moz-transition: transform ease .3s;
+              -ms-transition: transform ease .3s;
+              transition: transform ease .3s;
+            }
+            p {
+              text-align: center;
+              color: #fff;
+              height: 26px;
+              font-size: 14px;
+              font-family: "Microsoft Yahei";
+              line-height: 26px;
+              opacity: 0;
+            }
+            .listBox-img {
+              width: 260px;
+              overflow: hidden;
+            }
+          }
+          li:hover{
+            img{
+              transform: scale(1.1);
+              transition: all 0.3s;
+            }
+          }
+          .on {
+            //p{
+            //  opacity: 1;
+            //}
+            img{
+              width: 295px;
+            }
+            padding-top: 25px;
+            cursor: pointer;
+            -webkit-transition: padding ease .3s;
+            -moz-transition: padding ease .3s;
+            -ms-transition: padding ease .3s;
+            transition: padding ease .3s;
+          }
+        }
+      }
+      //主题第三层结束
+
+    }
+  }
+  //图片弹层开始
+  .show {
+    opacity: 1;
+  }
+  .pic-pop {
+    width: 100%;
+    left: 0;
+    margin-left: 0;
+    background: #000;
+    position: absolute;
+    top: -40px;
+    z-index: 15;
+    height: 100%;
+    transition: opacity ease .8s;
+    //opacity: 0;
+    //display: none;
+    .slideShow {
+      position: absolute;
+      z-index: 27;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      margin-top: 0;
+      margin: 40px auto 0;
+      .slideWrap {
+        width: 1920px;
+        left: 50%;
+        margin-left: -960px;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        ul {
+          position: absolute;
+          top: 0;
+          li {
+            width: 1920px;
+            height: 1080px;
+            position: relative;
+            float: left;
+            list-style: none;
+            //文本
+            .pop-txt {
+              z-index: 25;
+              position: absolute;
+              width: 280px;
+              height: 380px;
+              left: 50%;
+              top: 50%;
+              margin: -190px 0 0 -140px;
+              color: #fff;
+              font-size: 62px;
+              line-height: 60px;
+              .s1 {
+                margin-right: 127px;
+              }
+              span {
+                display: inline-block;
+                width: 60px;
+                height: 100%;
+                text-align: center;
+                vertical-align: top;
+                text-shadow: 3px 3px 3px #555;
+              }
+            }
+            //左边的图片
+            .changeable {
+              position: absolute;
+              z-index: 20;
+              height: 100%;
+              width: 50%;
+              left: 0;
+              top: 0;
+              overflow: hidden;
+              background: url("../sycl_b.jpg") no-repeat;
+            }
+            //移动的圆形图标
+            .handle {
+              background: url("../index_1_z_afd4269.png") no-repeat;
+              background-position: -1006px -500px ;
+              z-index: 27;
+              position: absolute;
+              width: 90px;
+              height: 90px;
+              left: 50%;
+              margin-left: -45px;
+              top: 50%;
+              margin-top: -45px;
+              cursor: url(../hand.cur),move;
+            }
+
+          }
+        }
+      }
+    }
+  }
+  //图片弹层结束
+
+}
+//主题部分结束
+//尾部开始
+#NIE-copyRight {
+  background: #0c0c0c;
+  color: #939393;
+  //padding: 20px 0 40px;
+  padding-top: 35px;
+  text-align: center;
+  .nie-copyright-new-inner {
+    width: 840px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+    .nie-cn-part3{
+      width: 840px;
+      height: 20px;
+    }
+    .nie-cn-part1{
+      width: 840px;
+      height: 48px;
+      .nie-cn-nav {
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        z-index: 1;
+        .nie-cn-nav-i1{
+          a{
+            margin-right: 3px;
+            margin-left: 3px;
+          }
+        }
+        .nie-cn-guardianship {
+          color: #fff;
+        }
+        a{
+          color: #ea4438;
+        }
+      }
+      .nie-cn-logo {
+        display: inline-block;
+        vertical-align: middle;
+        height: 48px;
+        min-width: 300px;
+        img {
+          padding-top: 5px;
+          border: 0;
+          vertical-align: middle;
+        }
+        .a0{
+          img{
+            width: 118px;
+            height: 36px;
+          }
+        }
+        .a1{
+          img{
+            width: 149px;
+            height: 36px;
+          }
+        }
+        a {
+          display: inline-block;
+          vertical-align: top;
+          margin-top: 2px;
+          color: #ea4438;
+        }
+      }
+    }
+  }
+}
+//尾部结束
+//左上角开始
+#awwwards {
+  position: absolute;
+  cursor: pointer;
+  top: 60px;
+  width: 90px;
+  height: 135px;
+  text-indent: -666em;
+  overflow: hidden;
+  z-index: 9999;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  left: 0;
+  background: url("../imgs/awwwards_nominee_black_left_f0f3af8.png");
+}
+//左上角结束
+//图片弹层两侧鼠标扫过出现的照片
+//#slideBtn{
+//  position: absolute;
+//  z-index: 100000;
+//  width: 10000px;
+//  height: 580px;
+//  top: 0;
+//  a {
+//    display: inline-block;
+//    width: 140px;
+//    height: 580px;
+//    //margin-top: -330px;
+//    overflow: hidden;
+//    background-color: red;
+//
+//    //background: url(../imgs/blank.png);
+//  }
+//}
